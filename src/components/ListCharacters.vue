@@ -22,7 +22,7 @@ const props = defineProps({
         <p class="card-text"><strong>Espécie:</strong> {{ props.species }}</p>
         <p class="card-text"><strong>Gênero:</strong> {{ props.gender }}</p>
         <p class="card-text"><strong>Localização Atual:</strong> {{ props.location }}</p>
-        <p class="card-text"><strong>Quantidade de Episódios:</strong> {{ props.episodeCount }}</p>
+        <p class="card-text"><strong>Aparições em Episódios:</strong> {{ props.episodeCount }}</p>
       </div>
     </div>
   </div>
