@@ -5,7 +5,8 @@ import ListCharacters from '../components/ListCharacters.vue';
 let characters = reactive(ref([]));
 
 onMounted(() => {
-  fetch("https://rickandmortyapi.com/api/character?page=4")
+  fetch("https://rickandmortyapi.com/api/character?page=5")
+
   .then(response => response.json())
   .then(data => {
     characters.value = data.results.map(character => {
@@ -15,6 +16,7 @@ onMounted(() => {
     console.log(characters);
   })
 })
+
 </script>
 
 <template>

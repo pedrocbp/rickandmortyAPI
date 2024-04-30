@@ -45,5 +45,8 @@ footer{
   justify-content: center;
   height: 50px;
 }
+body {
+  background-color: #2e3033;
+}
 
 </style>
