@@ -1,3 +1,11 @@
+# API Rick and Morty
+
+Este projeto é uma aplicação web que consome a [ API](https://rickandmortyapi.com/) para exibir informações sobre os personagens da série. Ele foi desenvolvido com Vue e Vite.
+
+# Link Site
+
+[SITE](https://rickandmortyapi-one.vercel.app/)
+
 # project-vue
 
 This template should help get you started developing with Vue 3 in Vite.
